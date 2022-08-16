@@ -1,12 +1,12 @@
 import React from 'react';
 
-function About() {
+function Contact() {
   return (
   <>
-    <h1>About</h1>
+    <h1>Contact Me</h1>
     <p></p>
   </>
   );
 }
 
-export default About;
+export default Contact;
