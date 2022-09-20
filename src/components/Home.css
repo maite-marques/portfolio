@@ -5,12 +5,12 @@
 
 .profile-img {
   width: 100%;
+  max-width: 600px;
 }
 
 .home {
   margin: 50px;
   display: flex;
-  justify-content: space-between;
 }
 
 .section {
@@ -19,10 +19,23 @@
   flex-direction: column;
 }
 
-.section-content {
-  align-items: center;
+.section-profile {
+  width: 80%;
 }
 
-.logo-img-container {
-  flex-direction: row;
+.section-content {
+  justify-content: center;
+}
+
+.section-content h1 {
+  font-size: 60px;
+}
+
+.section-content h3 {
+  font-size: 30px;
+}
+
+.logo-img-container img {
+  margin-right: 20px;
+
 }
