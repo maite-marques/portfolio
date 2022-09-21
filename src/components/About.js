@@ -4,7 +4,7 @@ function About() {
   return (
   <>
     <h1>About</h1>
-    <p></p>
+    <h1 className="text-3xl font-bold underline">Hi</h1>
   </>
   );
 }

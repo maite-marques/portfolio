@@ -1,3 +1,4 @@
+import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 
 import Home from './components/Home';
@@ -6,10 +7,9 @@ import About from './components/About';
 import Header from './components/Header';
 import Contact from './components/Contact';
 
-
 function App() {
   return (
-    <>
+    <div className='bg-red-500'>
       <Header />
       <Routes>
         <Route exact path="/" element={ <Home /> } />
@@ -17,7 +17,7 @@ function App() {
         <Route exact path="/about" element={ <About /> } />
         <Route exact path="/contact" element={ <Contact /> } />
       </Routes>
-    </>
+    </div>
   );
 }
 
