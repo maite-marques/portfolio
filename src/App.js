@@ -9,7 +9,7 @@ import Contact from './components/Contact';
 
 function App() {
   return (
-    <div className='bg-red-500'>
+    <div className='bg-grey-200'>
       <Header />
       <Routes>
         <Route exact path="/" element={ <Home /> } />

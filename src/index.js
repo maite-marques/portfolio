@@ -7,7 +7,7 @@ import App from './App';
 
 ReactDOM.render(
   <BrowserRouter>
-    <App />
+    <App className="font-sans"/>
   </BrowserRouter>,
   document.getElementById('root')
 );
