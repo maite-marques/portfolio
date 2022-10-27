@@ -1,13 +1,11 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
+import CssBaseLine from '@mui/material/CssBaseline'
 
 import './index.css';
 import App from './App';
 
-ReactDOM.render(
-  <BrowserRouter>
-    <App className="font-sans"/>
-  </BrowserRouter>,
-  document.getElementById('root')
-);
+ReactDOM
+  .createRoot(document.getElementById('root'))
+  .render(<BrowserRouter><CssBaseLine /><App /></BrowserRouter>);
